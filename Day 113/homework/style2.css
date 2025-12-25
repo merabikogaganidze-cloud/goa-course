@@ -21,6 +21,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
+    height:100vh;
+
 }
 
 
@@ -28,7 +30,7 @@ section {
 
     bottom : 0;
     position: fixed;
-    background-color:darkolivegreen;
+    background-color:rgba(80, 81, 78, 0.827);
     width: 100%;
     display: flex;
     justify-content: center;
