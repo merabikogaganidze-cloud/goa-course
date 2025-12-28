@@ -1,8 +1,0 @@
-ul {
-    color: blue;
-    list-style-type: circle;
-}
-
-ol{
-    list-style-image: url(image.png);
-}

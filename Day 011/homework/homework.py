@@ -1,8 +1,0 @@
-boolien = bool (input("tell me a bool: "))
-string = input("now a str: ")
-integer = int(input("now a int: "))
-float =float(input("now a float: "))
-print (type (boolien))
-print (type (string))
-print (type (integer))
-print (type (float))

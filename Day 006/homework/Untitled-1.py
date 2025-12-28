@@ -1,7 +1,0 @@
-name = input ("what's your name ?:")
-surname = input ("what's your surname ?:")
-age = int(input ("how old are you ?:"))
-country = input ("were are you from ?:")
-weight =int (input ("what's your weight ?:"))
-hight = float(input ("what's your hight ?:"))
-print ( name + " " + surname + " " + age + " " + country + " " + weight + " "  + hight )

@@ -1,1 +1,0 @@
-# arperi ar gvconda
