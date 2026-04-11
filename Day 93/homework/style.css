@@ -1,0 +1,45 @@
+    /* . 1) შექმენი div (ბურთი), რომელიც:
+
+მარცხენა კუთხიდან გადადის მარჯვნივ
+
+შემდეგ ბრუნდება უკან
+
+მოძრაობა იყოს ნელი და შემდეგ აჩქარებული (timing-function)
+
+გაგრძელდეს 3 წამი
+
+დაელოდოს 1 წამი დაწყებამდე
+
+გაიმეოროს 4-ჯერ
+
+ბოლოს დარჩეს იმ პოზიციაში, სადაც დასრულდა (fill-mode) */
+div{
+    width: 200px;
+    height: 200px;
+    background-color:red ;
+    animation-name: divch;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-fill-mode: both;
+    animation-iteration-count: 4;
+
+
+}
+
+@keyframes divch{
+    from{
+        background-color: yellow;
+        border-radius: 5px ;
+        transform: translatex(1000px);
+        border: 6px solid green;
+        transform: translatex(0px);
+    }
+
+    to{
+        background-color: rgb(0, 0, 255);
+        border-radius: 50% ;
+        border: 7px double rgb(217, 0, 255);
+        transform: translatex(1000px);
+    }
+}

@@ -1,0 +1,34 @@
+    /*
+6)შექმენი დივი მიეცი ზომები და ფერი, რომელიც:
+
+მარცხნიდან მიდის მარჯვნივ
+
+თან იზრდება ზომაში
+
+გრძელდება 3 წამი
+
+იწყება 1 წამის delay-ით
+
+მუშაობს 2-ჯერ*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+
+@keyframes divch{
+    from{
+        transform: translate(0);
+    }
+
+    to{
+        transform: translate(200px);
+
+    }
+}

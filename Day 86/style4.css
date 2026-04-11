@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: solid;
+}

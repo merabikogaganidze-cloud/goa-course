@@ -1,0 +1,16 @@
+.d1{
+    transform: translateX(300px);
+    width: 200px;
+}
+
+.d1{
+    transform: translateY(150px);
+    width: 200px;
+}
+
+.d1{
+    transform: translateX(100px)  translateY(80px);
+    width: 200px;
+}
+
+

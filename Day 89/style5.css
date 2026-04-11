@@ -1,0 +1,8 @@
+body {
+    height: 100vh;
+}
+
+img{
+    transform: rotate(245deg);
+    transform-origin: bottom left;
+}

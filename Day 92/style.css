@@ -1,0 +1,25 @@
+ /* 1)შექმენით ერთი დივი,მიეცით ზომები 200px 200px და წითელი ფერი , შექმენით ანიმაცია რომელიც 
+
+ამ დივს გადაიყვანს ყვითელ ფერში , გახდის სრულიად მრგვალს , დაუმატებს მწვანე ჩრდილს , ჩამოიტანს ქვემოთ 300px ით და გაწევს მარჯვნივ 400px ( გამოიყენე transform translate()   ) ით , ასევე დაუმატებს 2px იან წითელ ბორდერს 
+
+არ დაგავიწყდეთ div ზე animation name და duration ის გამოყენება,ამათ გარეშე ანიმაცია ვერ იმშავებს */
+
+div{
+    width: 200px;
+    height: 200px;
+    animation-name: divch;
+    animation-duration: s;
+}
+
+@keyframes divch{
+    from{
+        background-color: rgb(255, 0, 0);
+    }
+
+    to{
+        background-color: yellow;
+        box-shadow: 0px 0px 20px greenyellow;
+        transform: translateX(1000px);
+        border: solid 2px red;
+    }
+}

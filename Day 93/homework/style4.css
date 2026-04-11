@@ -1,0 +1,32 @@
+    /* 4)შექმენი კვადრატი, რომელიც:
+
+არ არის დატრიალებული ანუ ჩვეულებივ დგას
+
+ტრიალებს ორჯერ სრული წრით
+
+ეს ხდება მხოლოდ ორჯერ
+
+დასრულების შემდეგ რჩება იმ მდგომარეობაში, სადაც გაჩერდა*/
+div{
+    width: 200px;
+    height: 200px;
+    background-color:red ;
+    animation-name: divch;
+    animation-delay: 3.5s;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+
+
+}
+
+@keyframes divch{
+    from{
+        background-color: blue;
+    }
+
+    to{
+        transform: rotate(720deg);
+    }
+}

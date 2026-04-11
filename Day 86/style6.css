@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+}
+
+.b1{
+    width: 500px;
+    height: 500px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: solid;
+}
+
+.b2{
+    width: 500px;
+    height: 500px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid;
+}

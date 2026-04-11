@@ -1,0 +1,48 @@
+.parent{
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows:300px 300px 300px;
+    background-color: rgba(255, 0, 0, 0.589);
+    gap: 50px;
+}
+
+
+img{
+    width: 50px;
+}
+
+.n1{
+    background-color: blue;
+}
+
+.n2{
+    background-color: rgb(255, 0, 0);
+}
+
+.n3{
+    background-color: rgb(0, 255, 17);
+}
+
+.n4{
+    background-color: rgb(242, 0, 255);
+}
+
+.n5{
+    background-color: rgb(0, 234, 255);
+}
+
+.n6{
+    background-color: rgb(255, 230, 0);
+}
+
+.n7{
+    background-color: rgb(255, 0, 119);
+}
+
+.n8{
+    background-color: rgb(80, 80, 133);
+}
+
+.n9{
+    background-color: rgba(0, 0, 0, 0.265);
+}

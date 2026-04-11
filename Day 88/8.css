@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+}
+
+div {
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    transform:scaleX(2);
+}

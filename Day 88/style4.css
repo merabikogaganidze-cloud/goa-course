@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+}
+
+div {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    transform: translateY(-60px);
+}

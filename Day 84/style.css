@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: flex;
+    gap: 100px;
+}
+
+.d1{
+
+    height: 200px;
+    width: 200px;
+    background-image:url(1.png);
+}
+
+.d2{
+
+
+    height: 200px;
+    width: 200px;
+    background-image:url(1.png);
+}

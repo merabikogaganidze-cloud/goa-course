@@ -1,0 +1,31 @@
+    /*
+8)შექმენი კვადრატი, რომელიც:
+
+scale(0.5) დან გახდეს → scale(1.2)
+
+rotate(0deg) დან დატრიალდეს → rotate(360deg)
+
+ხანგრძლივობა 1.5 წამი
+
+და მოხდეს 5 ჯერ*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 1.5s;
+    animation-iteration-count: 5;
+}
+
+
+@keyframes divch{
+    from{
+        transform: scale(0.5) rotate(0deg);
+    }
+
+    to{
+        transform: scale(1.2) rotate(360deg);
+
+    }
+}

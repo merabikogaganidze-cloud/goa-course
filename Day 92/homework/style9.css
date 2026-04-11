@@ -1,0 +1,33 @@
+    /*
+"Alarm" ეფექტი:
+
+შექმენი წითელი ბლოკი, რომელიც:
+
+opacity: 1 დან გადავა → 0.3
+
+ხანგრძლივობა 0.5 წამი
+
+და მოხდეს სამუდამოდ  infinite
+
+*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes divch{
+    from{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0.3;
+
+    }
+}

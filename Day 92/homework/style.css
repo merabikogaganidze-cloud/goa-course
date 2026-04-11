@@ -1,0 +1,33 @@
+    /* <!-- 1)შექმენი div მიეცი ფერი და ზომები, რომელიც:
+
+თავიდან არის opacity: 0
+
+ბოლოს ხდება opacity: 1
+
+ანიმაცია გრძელდება 2 წამი
+
+იწყება 3 წამის დაგვიანებით
+
+მუშაობს მხოლოდ ერთხელ */
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+
+@keyframes divch{
+    from{
+        background-color: rgb(255, 0, 0);
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+
+    }
+}

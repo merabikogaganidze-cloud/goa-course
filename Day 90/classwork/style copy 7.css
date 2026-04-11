@@ -1,0 +1,14 @@
+header{
+    width: 100%;
+    background-color: brown;
+    border: 1px solid;
+}
+
+p{
+    transition: text-decoration 2s;
+}
+
+p:hover{
+    text-decoration: underline rgb(255, 255, 255);
+
+}

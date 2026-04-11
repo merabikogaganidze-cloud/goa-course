@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+}
+
+.b1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+header {
+    position: fixed;
+    height: 200px;
+    width: 1900px;
+    background-color: rgb(62, 136, 186);
+}
+
+.d1 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: fixed;
+    left:0;
+    bottom: 400px;
+}
+
+.d2{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

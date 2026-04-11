@@ -1,0 +1,43 @@
+    /*6)შექმენი ბურთი (div):
+
+მუდმივად ხტუნავს ზემოთ-ქვემოთ
+
+ყოველ ხტომაზე ოდნავ იწელება (stretch effect - ანუ სიგანე ეზდება სიმაღლე უპატარავდება)
+
+ფერი იცვლება ყოველი მიწაზე დაცემისას
+
+მიწასთან შეხებისას მოძრაობა ცოტა ნელდება (effect-ით)
+
+
+გაგრძელდეს უსასრულოდ
+*/
+div{
+    width: 200px;
+    height: 200px;
+
+    background-color:red ;
+    animation-name: divch;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function:ease-out;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes divch{
+    from{
+        background-color: blue;
+
+        border-radius: 50%;
+    }
+
+    to{
+        rotate: 360;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(0, 0, 255);
+        border-radius: 50%;
+    }
+}

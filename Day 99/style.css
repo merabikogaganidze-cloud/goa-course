@@ -1,0 +1,16 @@
+.parent{
+    background: red;
+    width: 600px;
+    height: 600px;
+    border:solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+}
+
+.color{
+    background-color: rgb(255, 255, 0);
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column: 1/5;
+}

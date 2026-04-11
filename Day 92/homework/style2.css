@@ -1,0 +1,31 @@
+    /* 2)შექმენი ელემენტი მაგალითად ღილაკი, რომელიც:
+
+from → translateX(-200px)
+
+to → translateX(0)
+
+გაგრძელდეს 2 წამი
+
+და ანიმაცია განმეორდეს 3 ჯერ */
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+
+}
+
+
+@keyframes divch{
+    from{
+        transform: translateX(-200px);
+    }
+
+    to{
+        transform: translateX(0);
+
+    }
+}

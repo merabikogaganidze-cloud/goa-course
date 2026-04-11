@@ -1,0 +1,36 @@
+    /*5)შექმენი div, რომელიც:
+
+თავიდან ჩანს
+
+ნელა ქრება
+
+მერე ისევ ჩნდება
+
+ეს პროცესი გრძელდება მუდმივად
+
+მოძრაობა თავიდან ნელი იყოს, შუაში და ბოლოში სწრაფი
+
+დაიწყოს 4 წამის დაგვიანებით*/
+div{
+    width: 200px;
+    height: 200px;
+    background-color:red ;
+    animation-name: divch;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-timing-function:ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes divch{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 10;
+    }
+}

@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+}
+
+div{
+    width: 700px;
+    height: 700px;
+    background-image: url(image.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border: solid;
+
+}

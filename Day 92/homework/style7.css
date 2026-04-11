@@ -1,0 +1,58 @@
+    /*
+7)შექმენი 3 დივი გვერდიგვერდ მიეცი სხვადასხვა ფერები და დააშორე ერთმანეთს რომ მიტყუპებულები არ იყვნენ, რომ:
+
+ყველას ერთნაირი ანიმაცია ჰქონდეს
+
+მაგრამ განსხვავებული delay ით
+
+პირველი იწყებდეს მაშინვე
+
+მეორე 1 წამში
+
+მესამე 2 წამში
+
+ეს სამი დივი თავიდან განალაგეთ COLUM ზე ანუ ზემოდან ქვემოთ
+
+ანიმაცია არის შემდეგი სამივე დივი წავიდეს მარცხნიდან მარჯვნივ და ასევე გაუჩნდეთ წითელი ფერის 5 PX იანი ბორდერი,ასევე მომრგვალდეს,
+
+მინიშნება:სამ KEYFRAME-ს ნუ შექმნით უბრალოდ ყველა დივს(სამივეს)მიანჭებთ ANIMATION NAME რაც ქვია თქვენს ამიმაციას მაგრამ DELAY ის მისცემთ სამივე დივს განსხვავებვულს*/
+
+.d1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+.d2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+
+.d3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: divch;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+@keyframes divch{
+    from{
+        border: none;
+    }
+
+    to{
+        border: 5px solid red ;
+
+    }
+}

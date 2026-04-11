@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    display: flex;
+
+}
+
+
+.d1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 500px;
+    left: 430px;
+    z-index: -3;
+    border: solid;
+}
+
+.d2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 174, 255);
+    position: relative;
+    top: 340px;
+    left: 10px;
+    z-index: -2;
+}
+
+.d3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 137, 34);
+    position: relative;
+    top: 400px;
+    left: -100px;
+    z-index: -2;
+}

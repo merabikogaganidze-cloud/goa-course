@@ -1,0 +1,31 @@
+    /*
+5)შექმენი ელემენტი, რომელიც:
+
+scale(0.3) იდან გაახდება → scale(2)
+
+ხანგრძლივობა 3 წამი
+
+დაგვიანება 2 წამი
+
+განმეორდეს 7 ჯერ*/
+
+div {
+    width: 200px;
+    height: 200px;
+    animation-name: divch;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: 7;
+}
+
+
+@keyframes divch{
+    from{
+        transform: scale(0.3);
+    }
+
+    to{
+        transform: scale(2);
+
+    }
+}

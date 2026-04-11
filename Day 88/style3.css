@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+}
+
+div {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    transform: translateX(-50px);
+}

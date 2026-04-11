@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+}
+
+.d1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    transform: translateX(200px);
+}
+
+.d2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    transform: scaleX(200px);
+}

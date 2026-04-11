@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+}
+
+div{
+    width: 100px;
+    background-color: rgb(100, 51, 16);
+    transform: rotateY(55deg);
+}

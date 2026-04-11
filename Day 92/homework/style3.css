@@ -1,0 +1,32 @@
+    /*
+3)შექმენი კვადრატი, რომელიც:
+
+წითლიდან გადადის ლურჯში
+
+ხანგრძლივობა ქონდეს 2 წამი
+
+განმეორდეს უსასრულოდ 
+
+და ანიმაცია დაიწყოს საიტის გახსნიდან 3 წამი*/
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    animation-name: divch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+
+@keyframes divch{
+    from{
+        background-color: rgb(255, 0, 0);
+    }
+
+    to{
+        background-color: rgb(0, 0, 255);
+
+    }
+}

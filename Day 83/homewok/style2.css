@@ -1,0 +1,31 @@
+.dd2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(h.png);
+    background-repeat: no-repeat;
+
+}
+
+.dd1{
+    width: 200px;
+    height: 200px;
+    background-image: url(h.png);
+    background-repeat: repeat;
+
+}
+
+.d3{
+    width: 200px;
+    height: 200px;
+    background-image: url(h.png);
+    background-repeat: repeat-x;
+
+}
+
+.d4{
+    width: 200px;
+    height: 200px;
+    background-image: url(h.png);
+    background-repeat: repeat-y;
+
+}

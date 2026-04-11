@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    transition: 0.7;
+}
+
+div:hover{
+    transform: rotateX(70deg);
+    transform-origin: bottom;
+}

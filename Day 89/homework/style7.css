@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+
+div{
+    width: 100px;
+    height: 0px;
+    background-color: rgb(255, 0, 0);
+    transition: 0.7;
+} 
+div:hover{
+    transform: rotate(45deg);
+    transform-origin: top left;
+}

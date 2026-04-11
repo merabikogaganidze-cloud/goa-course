@@ -1,0 +1,10 @@
+body{
+    height: 100vh;
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    background:url(image.png) cover no-repeat;
+
+}

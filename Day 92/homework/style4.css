@@ -1,0 +1,28 @@
+    /*
+4)შექმენი ფოტო, რომელიც:
+
+rotate(0deg) → rotate(360deg)
+
+ხანგრძლივობა 2 წამი
+
+ანიმაცია განმეორდეს 5 ჯერ*/
+
+img {
+    width: 200px;
+    height: 200px;
+    animation-name: divch;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+
+@keyframes divch{
+    from{
+        transform: rotate(0);
+    }
+
+    to{
+        transform: rotate(360deg);
+
+    }
+}

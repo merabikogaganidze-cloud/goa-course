@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+}
+
+div{
+    width: 100px;
+    background-color: rgb(100, 51, 16);
+    transition: 0.7s;
+}
+
+div:hover{
+    transform: rotateX(30deg);
+}

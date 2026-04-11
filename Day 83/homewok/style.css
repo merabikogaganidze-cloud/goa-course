@@ -1,0 +1,20 @@
+body{
+    height:100vh;
+}
+
+.d1{
+    width: 200px;
+    height: 200px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(h.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

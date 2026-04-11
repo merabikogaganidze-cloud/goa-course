@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    gap: 100px;
+}
+
+.d1{
+
+    height: 250px;
+    width: 250px;
+    background-image:url(image.png);
+    background-repeat: no-repeat;
+}
+
+.d2{
+
+
+    height: 400px;
+    width: 200px;
+    background-image:url(image.png);
+    background-repeat: no-repeat;
+}

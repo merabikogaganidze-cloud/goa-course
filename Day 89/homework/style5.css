@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+}
+
+div{
+    width: 120px;
+    background-color: rgb(255, 0, 0);
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+} 
