@@ -22,8 +22,9 @@ console.log(typeof Number(string))
 // დაბეჭდე ყველმათი ტიპები 
 
 // 3)მომხმარებელს შემოატანინე ორი მნიშვნელობა,შენი დავალებაა რომ იპოვო ამ რიცხვების ჯამი
-let stringg = prompt("num")
-let integerg = prompt("more num").
+let stringg = Number(prompt("num"))
+let integerg = Number(prompt("more num")
+)
 console.log(stringg+integerg)
 // 4)მომხმარებელს შემოატანინე მნიშვნელობები შენს შესახებ --> სახელი გვარი ... და interpolation ით შექმენი წინადადება 
 let namek = "Goga";
@@ -59,10 +60,30 @@ let tworr = prompt("..")
 let threerr = prompt("..")
 let fourrr = prompt("..")
 let fourrr5 = prompt("..")
-console.log(parseInt(onerr) + parseInt(tworr) + parseInt(threerr) + parseInt(fourrr) + parseInt(fourrr5)/ (parseInt(onerr) + parseInt(tworr) + parseInt(threerr) + parseInt(fourrr) + parseInt(fourrr5)).length)
+console.log((parseInt(onerr) + parseInt(tworr) + parseInt(threerr) + parseInt(fourrr) + parseInt(fourrr5))/5)
 // 11)შექმენი ცვლადი სადაც მომხმარებელი შემოტანს სტრინგს,შემდეგ დაბეჭდე მისი ტიპი
 let o = "lol"
 console.log(typeof o)
 o = 1
 console.log(typeof o)
 // შემდეგ შენი დავალებაა ეს ცვლადი განაახლო ახალი მომხმარებლის მიერ შემოყვანილო მნიშვნელობით რომელიც იქნება უკვე რიცხვი,შემდეგ დაბეჭდე მისი ტიპიც
+
+// 12)მომხმარებელს შემოატანინე რაიმე სახელი,შენი დავალებაა რომ გადაიყვანო ეს სახელი დიდ ასოებში და გამოიტანო კონს
+let likll = prompt("...")
+console.log(likll.toLocaleUpperCase)
+
+// 13)მომხმარებელს შემოაყვანინე რაიმე სახელი,შემდეგ შემოატანინე რაიმე ასო
+
+
+
+// შენი დავალებაა გაიგო იწყება თუ არა მომხმარებლის მიერ შემოტანილის სახელი მის მიერ შემოყვანილ ასოზე
+
+// 14)მომხმარებელს შემოატანინე რაიმე სახელი ოღონდ დიდი ასოებით,შენი დავალებაა გადააქციო ეს სახელი პატარა ასოებად და გამოიტანო კონსოლში
+
+let likllll = prompt("...")
+console.log(likllll.toLowerCase)
+
+// 15)მომხმარებელს შემოატანინე რაიმე სტრინგი რასაც გარშემო ექნება სფეისები,შენი დავალებაა დააკონსოლლოგო ეს სტრინგი სფეისების გარეშე
+
+let llikllll = prompt("...")
+console.log(llikllll.trim)
