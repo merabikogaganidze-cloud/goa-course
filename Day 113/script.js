@@ -18,7 +18,7 @@ else{
 
 // თუ ეს რიცხვი მეტია 50 ზე ან არის ლუწი --> "more than 50 or even"
 
-// თუ ეს რიცხვი არის 50 ზე ნაკლები და არის კენტი --> less than 50 and odd"
+// hujvwioefjvhwoiehfvთუ ეს რიცხვი არის 50 ზე ნაკლები და არის კენტი --> less than 50 and odd"
 
 // სხვა შემთხვევაში --> "other number"
 
