@@ -46,7 +46,7 @@ else{
 
 // სხვა შემთხვევაში → "Invalid text"
 let m4 = prompt(". . .")
-if(typeof m4  === String && m4.length()>=4 && m4.startswith()){
+if(typeof m4  === "string" && m4.length>=4 && m4.startswith()){
     console.log("Valid text")
 }
 

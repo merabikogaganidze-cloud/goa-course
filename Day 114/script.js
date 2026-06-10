@@ -13,14 +13,7 @@ else{
 // 2)შექმენი ცვლადი nickname.
 // თუ მომხმარებელმა არაფერი შეიყვანა, გამოიყენე "Guest" მნიშვნელობა || ოპერატორით.
 // ბოლოში დაბეჭდე nickname.
-let one1 = prompt(". . .")
-if(one1 === ""){
-    console.log("Guest")
-}
-
-else{
-    console.log(one1)
-}
+let nickname = prompt("") || "Guest"
 
 // 3)მომხმარებელს შემოატანინე ტექსტი.
 // თუ ტექსტი არსებობს და .trim() შემდეგ სიგრძე 5-ზე მეტია → "გრძელი ტექსტია"
@@ -53,14 +46,10 @@ if(two2 && two3){
     console.log("ორივე სწორია")
 }
 
-else if(two2==""){
-    console.log("რომელიღაც ცარიელია")  
+else{
+    console.log("რომელიღაც ცარიელია")
 }
-
-else if(two3==""){
-    console.log("რომელიღაც ცარიელია")  
-}
-
+//  \\\
 let isNum = 0;
 let result = isNum || "other nym";
 console.log(result)
@@ -143,7 +132,7 @@ if(ll1.startsWith("user")&& ll2.toLowerCase() === "admin" ){
     console.log("Fake admin")
 }
 
-else if(ll1.length.startswith("admin")&& ll2.toLowerCase() === "admin" ){
+else if(ll1.startswith("admin")&& ll2.toLowerCase() === "admin" ){
     console.log("Real admin")
 }
 
