@@ -27,7 +27,7 @@ function show1Age(o,t){
 
 show1Age(12,434)
 show1Age(190,90)
-show1Age(prompt(". . ."),prompt(". . ."))
+show1Age(Number(prompt(". . .")),Number(prompt(". . .")))
 // 4)შექმენი ფუნქცია multiply(a, b), რომელიც დაბეჭდავს ორი რიცხვის ნამრავლს.
 
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
@@ -37,7 +37,7 @@ function show12Age(oo,tt){
 
 show12Age(12,434)
 show12Age(190,90)
-show12Age(prompt(". . ."),prompt(". . ."))
+show12Age(Number(prompt(". . .")),Number(prompt(". . .")))
 // 5)შექმენი ფუნქცია fullName(firstName, lastName), რომელიც დაბეჭდავს სრულ სახელს ერთ სტრინგად.
 
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
@@ -66,7 +66,7 @@ function isAdult(age){
 }
 
 isAdult(46)
-isAdult(prompt(". . ."))
+isAdult(Number(prompt(". . .")))
 // 7)შექმენი ფუნქცია checkNumber(num).
 
 // თუ რიცხვი(პარამეტრი) დადებითია — დაბეჭდოს Positive, უარყოფითია — Negative, ხოლო 0-ზე — Zero , გამოიყენე ternary 
@@ -77,25 +77,29 @@ function isAsdult(age){
         console.log("Positive")
     }
 
+    else if(age === 0 ){
+        console.log("Zero")
+    }
+
     else{
         console.log("Negative")    
     }
 }
 
 isAsdult(46)
-isAsdult(prompt(". . ."))
+isAsdult(Number(prompt(". . .")))
 // 8)შექმენი ფუნქცია rectangleInfo(width, height), რომელიც დაბეჭდავს მართკუთხედის ფართობს: width * height.
 
 // გამოიძახე ფუნქცია რამდzენჯერმე განსხვავებული არგუმენტებით
 
 // # harder
-function show12Aage(oo,tt){
+function show12Aage(oo0,tt9){
     console.log(oo0 * tt9)
 }
 
 show12Aage(12,434)
 show12Aage(190,90)
-show12Aage(prompt(". . ."),prompt(". . ."))
+show12Aage(Number(prompt(". . .")),Number(prompt(". . .")))
 // 9)შექმენი ფუნქცია greetUser(name, time).
 
 // თუ time არის "morning", დაბეჭდოს Good morning, ${name}!
@@ -128,7 +132,7 @@ show12Aage(prompt(". . ."),prompt(". . ."))
 
 // გამოძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით
 function s(oo){
-    if(oo < 8){
+    if(oo.length < 8){
         console.log("Password is too short")
     }
     else{
