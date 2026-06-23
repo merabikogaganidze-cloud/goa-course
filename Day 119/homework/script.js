@@ -48,8 +48,8 @@ console.log(Math.abs(-7))
 function ultimateMath(a, b, c){
     return(Math.max(a,b,c))
     return(Math.min(a,b,c))
-    return(Math.max(Math.sqrt(a,b,c)))
-    return(Math.min(Math.sqrt(a,b,c)))
+    return(Math.sqrt(Math.max(a,b,c)))
+    return(Math.sqrt(Math.min(a,b,c)))
 }
 // 8)შექმენი ფუნქცია checkSign(num)
 
@@ -89,12 +89,12 @@ function checkSign(num){
 // Math.trunc()
 // Math.abs()
 // Math.sign()
-function analyzeRandom(){
-    let number = Math.random()
-    return Math.round(number)
-    return Math.floor(number)
-    return Math.ceil(number)
-    return Math.trunc(number)
-    return Math.abs(number)
-    return Math.sign(number)
-}
+// function analyzeRandom(){
+//     let number = Math.random()
+//     return Math.round(number)
+//     return Math.floor(number)
+//     return Math.ceil(number)
+//     return Math.trunc(number)
+//     return Math.abs(number)
+//     return Math.sign(number)
+// }
