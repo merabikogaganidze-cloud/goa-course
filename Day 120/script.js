@@ -11,7 +11,11 @@ function analyzeTemperature(temp){
     }
 
     else if(temp > 15 && temp < 30){
-        return "Hot"
+        return "Normal"
+    }
+
+    else{
+        return "Cold"
     }
 }
 // 2)შექმენი ფუნქცია:
@@ -65,7 +69,7 @@ function ticketPrice(age){
         return 5
     }
 
-    else if(age > 12 < 60){
+    else if(age > 12&& age < 60){
         return 15
     }
 
@@ -88,7 +92,7 @@ function ticketPrice(age){
 
 // switch()
 function grade(score){
-    score > 90  && score <= 100 ? console.log("a"):    score > 80  && score <= 89 ? console.log("b"):    score > 70  && score <= 79 ? console.log("c"):    score > 60  && score <= 69 ? console.log("d"):    score >0  && score <= 59 ? console.log("f"):
+    score > 90  && score <= 100 ? console.log("a"):    score > 80  && score <= 89 ? console.log("b"):    score > 70  && score <= 79 ? console.log("c"):    score > 60  && score <= 69 ? console.log("d"):    score >0  && score <= 59 ? console.log("f"):console("not found")
 }
 
 grade(85)
