@@ -37,4 +37,5 @@ const greet = (name , age , sunrame) => {
 
 console.log(greet("giorgi" , 20 , "miribiani"))
 
+
 // გადააკეთეთ ზემოთ მოცემული ფუნქცია ჯერ function expression შემდეგ arrow ფუნქციად
