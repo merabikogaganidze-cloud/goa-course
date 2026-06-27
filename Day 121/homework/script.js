@@ -2,7 +2,7 @@
 
 // გამოიძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით და ნახე შედეგი
 const square = function(square){
-    return square * square
+    return Math.pow(square,2)
 }
 
 console.log(square(234))
@@ -26,8 +26,8 @@ console.log(square(prompt(". . ."),prompt(". . ."),prompt(". . ."),prompt(". . .
 
 // სხვა შემთხვევაში დააბრუნოს false.
 const checkPassword = function(password){
-    if(password.length <= 8 && password.endsWith(a)){
-        return false
+    if(password.length <= 8 && password.endsWith("a")){
+        return true
     }
 
     else{
@@ -35,7 +35,7 @@ const checkPassword = function(password){
     }
 }
 
-console.log(checkPassword)
+console.log(checkPassword("hajehya"))
 // 4)შექმენი Function Expression --> isLuckyNumber, რომელიც დააბრუნებს true თუ რიცხვი:
 
 // იყოფა 3-ზე
@@ -48,7 +48,7 @@ const isLuckyNumber = function(number){
     return num % 3 === 0 && num % 5 === 0 ?true:false
 }
 
-console.log(isLuckyNumber(3363633,363333636345))
+console.log(isLuckyNumber(3363633363333636345))
 // 5)შექმენი Function Expression--> checkWord, რომელიც მიიღებს სიტყვას.
 
 // თუ სიტყვა არის "javascript" დააბრუნოს:
@@ -119,5 +119,27 @@ console.log(wsord("headfqი"))
 
 // თუ სტრინგი იწყება "გ" თი და მთავრდება "ო" თი და სიგრძე trim() ით მეტია 8 ზე დააბრუნე --> რთული სახელი , სხვა შემთხვევაში მარტივი სახელი
 
-const ggg = (gggg) => {return gggg.startsWith(გ) && gggg.endsWith(ო) && gggg.length.trim()>8 ?  "რთული სახელი":"მარტივი სახელი"}
+const ggg = (gggg) =>  gggg.startsWith(გ) && gggg.endsWith(ო) && gggg.length.trim()>8 ?  "რთული სახელი":"მარტივი სახელი"
 console.log(ggg("გhellomynameisgiorgiო"))
+
+// 10)შექმენი formatUsername, რომელიც ერთ ხაზში დააბრუნებს username-ს პატარა ასოებით.
+const  formatUsername = (username) => username.toLowerCase()
+// 11)შექმენი checkCode, რომელიც ერთ ხაზში დააბრუნებს:
+
+// "Access Granted" თუ კოდი არის "1234"
+// "Access Denied" სხვა შემთხვევაში
+
+// ternary
+const gggg = (gg) => g === 1234 ?  "Access Granted":"Access Denied"
+// 12)შექმენი isLongText, რომელიც ერთ ხაზში დააბრუნებს true, თუ ტექსტის სიგრძე 10-ზე მეტია. 
+const gggg = (ggggggg) => gg.length > 10 ? "Passed":"Failed"
+// 13)შექმენი passedExam, რომელიც ერთ ხაზში დააბრუნებს:
+
+// "Passed" თუ ქულა 51 ან მეტია
+// "Failed" სხვა შემთხვევაში
+
+// ternary
+const gggg = (g) => gg > 51 ? true:false
+// 14)შექმენი freeDelivery, რომელიც ერთ ხაზში დააბრუნებს true, თუ შეკვეთის ფასი 100₾-ზე მეტია. სხვა შემთხვევაში false
+const freeDelivery = (g) => gg > 51 ? true:false
+// ternary
