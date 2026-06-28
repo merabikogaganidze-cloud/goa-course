@@ -131,7 +131,7 @@ const  formatUsername = (username) => username.toLowerCase()
 
 // ternary
 const gggg = (gg) => g === 1234 ?  "Access Granted":"Access Denied"
-// 12)შექმენი isLongText, რომელიც ერთ ხაზში დააბრუნებს true, თუ ტექსტის სიგრძე 10-ზე მეტია. 
+// 12)შექმენი isLongText, რომელიც ერთ ხაზში დააბრუნებს true, თუ ტექსტის სიგრძე 10-ზე    მეტია. 
 const gggg = (ggggggg) => gg.length > 10 ? "Passed":"Failed"
 // 13)შექმენი passedExam, რომელიც ერთ ხაზში დააბრუნებს:
 
